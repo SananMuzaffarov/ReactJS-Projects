@@ -1,0 +1,43 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #777;
+}
+.container{
+  width: 350px;
+  background-color: #fff;
+  padding: 10px;
+}
+.container form{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+.container form input{
+  margin: 5px 0 5px 0;
+  padding: 15px;
+  border: 0;
+}
+.container form input[type=text] ,.container form input[type=email]{
+  font-size: 15px;
+  color: #000;
+}
+button{
+  background: green;
+  border: 1px solid green;
+  color: white;
+  cursor: pointer;
+  height: 40px;
+}
+#error{
+  color: red;
+}
