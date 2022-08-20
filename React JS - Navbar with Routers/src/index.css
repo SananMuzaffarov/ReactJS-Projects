@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body{
+  background-color: azure;
+}
+.header{
+  background-color: black;
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 70px;
+}
+.logo h1{
+  font-size: 25px;
+  font-weight: 600;
+  color: red;
+}
+.header .navigator{
+  list-style: none;
+}
+.header .navigator ul li{
+  display: inline-block;
+  padding: 0 30px;
+}
+.header .navigator ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.buttons button{
+  padding: 10px 50px;
+  background-color: red;
+  border: 1px solid red;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  font-size: 15px;
+}
