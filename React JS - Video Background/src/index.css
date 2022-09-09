@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+}
+video{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+.videoContent{
+    position: absolute;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+.videoContent h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.videoContent p{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
