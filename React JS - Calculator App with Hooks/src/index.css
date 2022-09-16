@@ -16,8 +16,8 @@ body{
   position: absolute;
   width: 255px;
   text-align: center;
-  border: 10px solid #4b5790;
-  background: #4b5790;
+  border: 10px solid #d0d0d0;
+  background: #d0d0d0;
   border-radius: 7px;
 }
 .buttons{
@@ -30,8 +30,8 @@ input[type="text"]{
   width: 240px;
   background-color: #10111600;
   border: 0px;
-  color: #ffffff;
-  text-align: right;
+  color: #000;
+  text-align: left;
   font-size: 20px;
   font-weight: 500;
 }
@@ -47,7 +47,7 @@ button{
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  background: rgb(38, 43, 67);
+  background: rgb(70, 79, 122);
   color: #fff;
   font-weight: 500;
   margin: 3px;
