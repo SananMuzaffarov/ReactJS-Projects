@@ -27,11 +27,7 @@ const App = () => {
               <span>{selected === i ? '-' : '+'}</span>
             </div>
             <div className={selected === i ? 'content show' : 'content'}>
-            {item.answers.map((item) => {
-                return (
-                  <h2>{item.title}</h2>
-                )
-              })}    
+              <p>{item.answers}</p>
             </div>
           </div>
         ))}
@@ -42,49 +38,18 @@ const App = () => {
 
 
 const data = [
-
   {
     question: "Natural Ededler 1",
-    answers: [
-      {
-        title: "Natural Ededlerin 1"
-      },
-      {
-        title: "Natural Ededlerin 2"
-      },
-      {
-        title: "Natural Ededlerin 3"
-      }
-    ]
+    answers: "Natural Ededlerin 1"
   },
   {
     question: "Natural Ededler 2",
-    answers: [
-      {
-        title: "Natural Ededlerin 1"
-      },
-      {
-        title: "Natural Ededlerin 2"
-      },
-      {
-        title: "Natural Ededlerin 3"
-      }
-    ]
+    answers: "Natural Ededlerin 2"
   },
   {
     question: "Natural Ededler 3",
-    answers: [
-      {
-        title: "Natural Ededlerin 1"
-      },
-      {
-        title: "Natural Ededlerin 2"
-      },
-      {
-        title: "Natural Ededlerin 3"
-      }
-    ]
+    answers: "Natural Ededlerin 3"
   },
+];
 
-]
 root.render(<App />);

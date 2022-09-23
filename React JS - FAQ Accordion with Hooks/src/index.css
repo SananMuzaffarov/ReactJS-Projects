@@ -5,7 +5,7 @@
     font-family: sans-serif;
 }
 body{
-    background-color: rgb(172, 172, 172);
+    background-color: #fff;
 }
 .wrapper{
     display: flex;
@@ -20,25 +20,30 @@ body{
 }
 .item{
     background-color: rgb(255, 255, 255);
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     padding: 30px 20px;
     border-radius: 0.5rem;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+    border: 1px solid #BCC5D5;
 }
 .item span{
     font-size: 20px;
-    color: #000;
+    color: #599BF0;
     font-weight: 700;
 }
+.item p{
+    color: #525461;
+}
 .title{
-    color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
+.title h2{
+    color: #1e6dd5;
+    font-weight: 700;
+}
 .content{
     margin-top: 20px;
-    color: #000;
     font-weight: 400;
     overflow: hidden;
     max-height: 0;
